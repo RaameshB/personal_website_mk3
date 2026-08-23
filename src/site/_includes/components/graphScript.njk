@@ -447,7 +447,7 @@ let graphDataCache = null;
 let fullGraphDataCache = null;
 let localGraphCleanup = null;
 let globalGraphCleanup = null;
-let localGraphDepth = 1;
+let localGraphDepth = 3;
 
 async function init() {
     const { graphData, fullGraphData } = await fetchGraphData();
@@ -510,7 +510,7 @@ document.addEventListener('forestry:css-changed', function() {
 init();
 </script>
 
-<div id="graph-component" class="graph" x-data="{ showFullGraph: false, graphDepth: 1 }">
+<div id="graph-component" class="graph" x-data="{ showFullGraph: false, graphDepth: 3 }">
     <div class="graph-title-container">
         <div class="graph-title">Connected Pages</div>
         <div id="graph-controls">
