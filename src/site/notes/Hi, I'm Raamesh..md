@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hi-i-m-raamesh/","tags":["gardenEntry"],"updated":"2026-08-22T23:39:39.593-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/hi-i-m-raamesh/","tags":["gardenEntry"],"updated":"2026-08-22T23:58:01.000-05:00","dg-note-properties":{}}
 ---
 
 I'm a student involved in Machine Learning research, with a specific focus on efficient and intelligent foundation backbone architectures. Check out some of my [[Projects\|projects]] or look at my [[Resume\|resume]].
