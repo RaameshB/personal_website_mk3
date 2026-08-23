@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resume/","updated":"2026-08-22T23:41:21.467-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/resume/","updated":"2026-08-22T23:43:47.284-05:00","dg-note-properties":{}}
 ---
 
 Conroe, TX • (936) 828-7896 • raamesh@raameshb.xyz • [GitHub](https://github.com/RaameshB)
