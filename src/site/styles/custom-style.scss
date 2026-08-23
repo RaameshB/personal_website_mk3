@@ -14,8 +14,8 @@ body {
   .sidebar {
     position: static !important;
 
-    width: min(1400px, calc(100vw - 80px));
-    max-width: none;
+    width: var(--dg-content-max-width);
+    max-width: calc(100vw - 80px);
     height: auto;
 
     margin: 3rem auto 6rem;
