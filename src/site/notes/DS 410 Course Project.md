@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/ds-410-course-project/","updated":"2026-08-23T00:51:32.475-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/ds-410-course-project/","updated":"2026-08-23T02:58:59.151-05:00","dg-note-properties":{}}
 ---
 
+# DS 410 Course Project
 [GitHub](https://github.com/RaameshB/ds410-course-proj-redo)
 ## Summary
 Topic modeling project using PySpark that is able to filter through and process multiple terebytes of Common Crawl data. Works with Slurm and can be parallelized across multiple nodes and CPUs.

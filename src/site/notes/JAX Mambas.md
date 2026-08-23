@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/jax-mambas/","updated":"2026-08-23T00:35:47.103-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/jax-mambas/","updated":"2026-08-23T02:59:35.973-05:00","dg-note-properties":{}}
 ---
 
+# JAX Mambas
 [GitLab (Main Repo)](https://gitlab.com/RaameshB/JAX-Mambas) | [GitHub (Mirror)](https://github.com/RaameshB/JAX-Mambas)
 ## Summary
 A project where I am doing JAX+Flax NNX implementation of Mamba-1, 2 and 3. This includes replicating some of their experiments (as my compute budget allows), and porting their CUDA kernels to either JAX/OpenXLA's FFI or (ideally) Pallas. 

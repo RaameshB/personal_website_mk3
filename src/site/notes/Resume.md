@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/resume/","updated":"2026-08-22T23:58:01.000-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/resume/","updated":"2026-08-23T02:59:56.015-05:00","dg-note-properties":{}}
 ---
 
+# Resume
 Conroe, TX • (936) 828-7896 • raamesh@raameshb.xyz • [GitHub](https://github.com/RaameshB)
 
 ## Selected Research Projects

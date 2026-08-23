@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/projects/","updated":"2026-08-23T00:50:53.788-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/projects/","updated":"2026-08-23T02:59:50.074-05:00","dg-note-properties":{}}
 ---
 
+# Projects
 > [[JAX Mambas\|JAX Mambas]]
 > Port of Mamba papers to JAX and Flax's NNX API, including the kernels.
 
