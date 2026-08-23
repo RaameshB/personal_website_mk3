@@ -425,7 +425,7 @@ function renderGraph(graphData, containerId, isFullScreen) {
             const fitScale = Math.min(width / gw, height / gh, 2);
             const k = isFullScreen
                 ? fitScale
-                : Math.min(fitScale * 1.2, 4);
+                : Math.min(fitScale * 1.3, 4);
             const cx = (minX + maxX) / 2;
             const cy = (minY + maxY) / 2;
 
