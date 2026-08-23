@@ -28,9 +28,9 @@ function filterLocalGraphData(graphData, depth) {
     depth = depth || 1;
     const allNodes = JSON.parse(JSON.stringify(graphData.nodes));
     const allLinks = JSON.parse(JSON.stringify(graphData.links));
-    let currentLink = decodeURI(window.location.pathname);
+     currentLink = decodeURI(window.location.pathname);
 
-    let currentNode = allNodes[currentLink];
+     currentNode = allNodes[currentLink];
     if (!currentNode) {
         const lower = currentLink.toLowerCase();
         currentNode = Object.values(allNodes).find(v => v.url.toLowerCase() === lower);
@@ -44,7 +44,7 @@ function filterLocalGraphData(graphData, depth) {
 
     // Hidden nodes (home page, index/hub pages like the-shelf or entity-index)
     // are never rendered, but they're linked from a huge number of pages. If we
-    // let BFS walk through them as ordinary hops, they silently bridge otherwise
+    //  BFS walk through them as ordinary hops, they silently bridge otherwise
     // unrelated parts of the graph together — the hidden hop then gets dropped
     // from the output, leaving nodes that appear with no visible path to the
     // current node. So a hidden node can only ever be a traversal *endpoint*
@@ -64,8 +64,8 @@ function filterLocalGraphData(graphData, depth) {
 
     // BFS out from the current node up to `depth` hops
     const visited = new Set([currentNode.id]);
-    let frontier = new Set([currentNode.id]);
-    for (let i = 0; i < depth && frontier.size > 0; i++) {
+     frontier = new Set([currentNode.id]);
+    for ( i = 0; i < depth && frontier.size > 0; i++) {
         const next = new Set();
         for (const id of frontier) {
             for (const neighborId of (adjacency[id] || [])) {
@@ -184,8 +184,8 @@ function renderGraph(graphData, containerId, isFullScreen) {
     const labelsContainer = new Container();
     stage.addChild(linkGfx, nodesContainer, labelsContainer);
 
-    let hoveredNodeId = null;
-    let hoveredNeighbours = new Set();
+     hoveredNodeId = null;
+     hoveredNeighbours = new Set();
     let dragging = false;
     let dragStartTime = 0;
     let dragStartPos = null;
@@ -447,7 +447,7 @@ let graphDataCache = null;
 let fullGraphDataCache = null;
 let localGraphCleanup = null;
 let globalGraphCleanup = null;
-let localGraphDepth = 1;
+let localGraphDepth = 3;
 
 async function init() {
     const { graphData, fullGraphData } = await fetchGraphData();
@@ -510,7 +510,7 @@ document.addEventListener('forestry:css-changed', function() {
 init();
 </script>
 
-<div id="graph-component" class="graph" x-data="{ showFullGraph: false, graphDepth: 1 }">
+<div id="graph-component" class="graph" x-data="{ showFullGraph: false, graphDepth: 3 }">
     <div class="graph-title-container">
         <div class="graph-title">Connected Pages</div>
         <div id="graph-controls">
