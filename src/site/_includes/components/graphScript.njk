@@ -447,27 +447,13 @@ let graphDataCache = null;
 let fullGraphDataCache = null;
 let localGraphCleanup = null;
 let globalGraphCleanup = null;
-let localGraphDepth = 1;
-
-/*
-async function init() {
-    const { graphData, fullGraphData } = await fetchGraphData();
-    graphDataCache = graphData;
-    fullGraphDataCache = fullGraphData;
-    renderLocal();
-}
-*/
+let localGraphDepth = 3;
 
 async function init() {
     const { graphData, fullGraphData } = await fetchGraphData();
     graphDataCache = graphData;
     fullGraphDataCache = fullGraphData;
-
     renderLocal();
-
-    requestAnimationFrame(() => {
-        setLocalGraphDepth(3);
-    });
 }
 
 function renderLocal() {
