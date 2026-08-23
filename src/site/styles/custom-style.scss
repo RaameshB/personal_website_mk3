@@ -10,32 +10,53 @@ body {
     //  h1 {
     //   color: black;
     //  }
-  .bottom-graph {
+  // Turn the normal fixed right sidebar into a bottom section.
+  .sidebar {
+    position: static !important;
+
     width: min(1400px, calc(100vw - 80px));
+    max-width: none;
+    height: auto;
+
     margin: 3rem auto 6rem;
+
+    display: block;
   }
 
-  .bottom-graph .graph {
+  .sidebar-container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: visible;
+  }
+
+  // Large graph.
+  .sidebar .graph {
     width: 100%;
     min-height: 800px;
   }
 
-  .bottom-graph #link-graph {
+  .sidebar .graph #link-graph {
     width: 100%;
     height: 800px;
   }
 
+  // Backlinks sit underneath the graph.
+  .sidebar .backlinks {
+    margin-top: 2rem;
+  }
+
   @media (max-width: 800px) {
-    .bottom-graph {
+    .sidebar {
       width: calc(100vw - 32px);
       margin: 2rem auto 4rem;
     }
 
-    .bottom-graph .graph {
+    .sidebar .graph {
       min-height: 500px;
     }
 
-    .bottom-graph #link-graph {
+    .sidebar .graph #link-graph {
       height: 500px;
     }
   }
