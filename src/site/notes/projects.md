@@ -3,5 +3,6 @@
 ---
 
 # Projects
-## [[JAX Mambas\|JAX Mambas]]
-Port of Mamba papers to JAX, including the kernels 
+
+> [[JAX Mambas\|JAX Mambas]]
+> Port of Mamba papers to JAX, including the kernels 
