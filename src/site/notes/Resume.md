@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resume/","updated":"2026-08-23T02:59:56.015-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/resume/","updated":"2026-08-23T10:12:14.192-05:00","dg-note-properties":{}}
 ---
 
 # Resume
@@ -12,7 +12,7 @@ Conroe, TX • (936) 828-7896 • raamesh@raameshb.xyz • [GitHub](https://gith
 
 [github.com/RaameshB/JAX-Mambas](https://github.com/RaameshB/JAX-Mambas)
 
-- Implemented a configurable Mamba-1 model in JAX and Flax NNX with configurations faithful to both the paper and the official repository; supports exponential Euler and zero-order hold (ZOH) discretization and both broadcasted scalar and learned generalized low-rank Δ selection.
+- Implemented a configurable Mamba-1 model in JAX and Flax NNX with configurations faithful to both the paper and the official repository; supports exponential Euler and zero-order hold (ZOH) discretization and both broadcasted scalar and learned generalized low-rank $\Delta$ selection.
 - Integrated Mamba’s official CUDA selective scan kernel into JAX via XLA FFI; validated CUDA forward and reverse mode selective scan agreement for exponential Euler and CUDA forward agreement for ZOH, whose reverse mode uses a JAX fallback.
 - Reproduced Mamba’s induction heads length generalization with 100% accuracy at every tested length through 32,768—the longest evaluated due to compute constraints—after training only at length 256 (128 evaluation samples per length).
 - On an A100, achieved 1.42× whole-model loss and gradient throughput (D = 64) and up to 1.84× CUDA selective-scan forward throughput at L = 8,192 (B = 8, D = 64, N = 16) versus `jax.lax.associative_scan` baseline with `jax.remat`.
