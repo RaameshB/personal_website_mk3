@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/s4-replication/","updated":"2026-08-23T03:00:03.894-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/s4-replication/","updated":"2026-08-23T10:12:03.000-05:00","dg-note-properties":{}}
 ---
 
 # S4 Replication

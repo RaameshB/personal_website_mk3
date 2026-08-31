@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/jax-mambas/","updated":"2026-08-23T02:59:35.973-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/jax-mambas/","updated":"2026-08-23T10:12:03.000-05:00","dg-note-properties":{}}
 ---
 
 # JAX Mambas

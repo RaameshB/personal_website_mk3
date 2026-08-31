@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/","updated":"2026-08-23T02:59:50.074-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/projects/","updated":"2026-08-23T10:12:04.000-05:00","dg-note-properties":{}}
 ---
 
 # Projects
