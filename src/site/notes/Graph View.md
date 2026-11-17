@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/graph-view/","updated":"2026-08-31T16:36:22.930-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/graph-view/","updated":"2026-10-08T19:28:45.000-05:00","dg-note-properties":{}}
 ---
 
 you've successfully navigated my site via the graph. if you didn't intend to do this, just hit the back button on your browser to go back to where you were.

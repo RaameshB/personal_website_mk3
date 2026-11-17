@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/goldfishes/","updated":"2026-09-19T01:49:18.890-05:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/goldfishes/","updated":"2026-10-08T19:28:45.000-05:00","dg-note-properties":{}}
 ---
 
 https://goldfishies.com/
